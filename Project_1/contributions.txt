@@ -1,0 +1,10 @@
+Project Contributions for Project 1
+
+Apologies for not including this in the original report!
+
+Sydney Petz and Aiden Zelakiewicz lead the derivations and codebase for the project.
+Aiden Zelakiewicz calculated the detectibility of Earth-like planets using various method.
+Sydney Petz lead the derivations of the technique sensitivies.
+Justin Anderson lead the creation and stylization of the powerpoint.
+The paper was lead by Aiden Zelakiewicz and Sydney Petz, with contributions by Justin Anderson.
+Justin Anderson gave the oral presentation to the class.
