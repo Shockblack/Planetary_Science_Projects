@@ -1,0 +1,54 @@
+\documentclass{emulateapj}
+\newcommand{\bjdtdb}{\ensuremath{\rm {BJD_{TDB}}}}
+\newcommand{\feh}{\ensuremath{\left[{\rm Fe}/{\rm H}\right]}}
+\newcommand{\teff}{\ensuremath{T_{\rm eff}}}
+\newcommand{\ecosw}{\ensuremath{e\cos{\omega_*}}}
+\newcommand{\esinw}{\ensuremath{e\sin{\omega_*}}}
+\newcommand{\msun}{\ensuremath{\,M_\Sun}}
+\newcommand{\rsun}{\ensuremath{\,R_\Sun}}
+\newcommand{\lsun}{\ensuremath{\,L_\Sun}}
+\newcommand{\mj}{\ensuremath{\,M_{\rm J}}}
+\newcommand{\rj}{\ensuremath{\,R_{\rm J}}}
+\newcommand{\fave}{\langle F \rangle}
+\newcommand{\fluxcgs}{10$^9$ erg s$^{-1}$ cm$^{-2}$}
+\usepackage{apjfonts}
+\begin{document}
+\begin{deluxetable}{lcc}
+\tablecaption{Median values and 68\% confidence interval for exofast.}
+\tablehead{\colhead{~~~Parameter} & \colhead{Units} & \colhead{Value}}
+\startdata
+\sidehead{Stellar Parameters:}
+                       ~~~$M_{*}$\dotfill &Mass (\msun)\dotfill & $0.440\pm0.049$\\
+                     ~~~$R_{*}$\dotfill &Radius (\rsun)\dotfill & $0.427\pm0.034$\\
+                 ~~~$L_{*}$\dotfill &Luminosity (\lsun)\dotfill & $0.0248_{-0.0078}^{+0.010}$\\
+                     ~~~$\rho_*$\dotfill &Density (cgs)\dotfill & $8.0_{-1.2}^{+1.4}$\\
+          ~~~$\log(g_*)$\dotfill &Surface gravity (cgs)\dotfill & $4.789_{-0.044}^{+0.045}$\\
+          ~~~$\teff$\dotfill &Effective temperature (K)\dotfill & $3500_{-200}^{+190}$\\
+                          ~~~$\feh$\dotfill &Metalicity\dotfill & $0.102_{-0.10}^{+0.098}$\\
+\sidehead{Planetary Parameters:}
+                           ~~~$e$\dotfill &Eccentricity\dotfill & $0.197_{-0.052}^{+0.050}$\\
+~~~$\omega_*$\dotfill &Argument of periastron (degrees)\dotfill & $-5_{-15}^{+14}$\\
+                          ~~~$P$\dotfill &Period (days)\dotfill & $2.643941_{-0.000097}^{+0.000095}$\\
+                   ~~~$a$\dotfill &Semi-major axis (AU)\dotfill & $0.0285_{-0.0011}^{+0.0010}$\\
+       ~~~$T_{eq}$\dotfill &Equilibrium Temperature (K)\dotfill & $654_{-47}^{+48}$\\
+           ~~~$\fave$\dotfill &Incident flux (\fluxcgs)\dotfill & $0.040_{-0.010}^{+0.013}$\\
+\sidehead{RV Parameters:}
+                          ~~~$e\cos\omega_*$\dotfill & \dotfill & $0.191_{-0.053}^{+0.052}$\\
+                          ~~~$e\sin\omega_*$\dotfill & \dotfill & $-0.019_{-0.046}^{+0.047}$\\
+       ~~~$T_{P}$\dotfill &Time of periastron (\bjdtdb)\dotfill & $2452992.624_{-0.10}^{+0.097}$\\
+                ~~~$K$\dotfill &RV semi-amplitude (m/s)\dotfill & $18.1\pm1.0$\\
+             ~~~$M_P\sin i$\dotfill &Minimum mass (\mj)\dotfill & $0.0696\pm0.0064$\\
+                   ~~~$M_{P}/M_{*}$\dotfill &Mass ratio\dotfill & $0.0001515_{-0.0000097}^{+0.000010}$\\
+           ~~~$\gamma$\dotfill &Systemic velocity (m/s)\dotfill & $-0.14\pm0.66$\\
+\sidehead{Primary Transit Parameters:}
+            ~~~$T_C$\dotfill &Time of transit (\bjdtdb)\dotfill & $2452993.166_{-0.047}^{+0.048}$\\
+             ~~~$T_{14}$\dotfill &Total duration (days)\dotfill & $0.0587_{-0.0041}^{+0.0044}$\\
+            ~~~$P_{T,G}$\dotfill &A priori transit prob\dotfill & $0.0712_{-0.0050}^{+0.0056}$\\
+\sidehead{Secondary Eclipse Parameters:}
+          ~~~$T_{S}$\dotfill &Time of eclipse (\bjdtdb)\dotfill & $2452992.164_{-0.048}^{+0.045}$\\
+  ~~~$P_{S}$\dotfill &A priori non-grazing eclipse prob\dotfill & $0.0565_{-0.0039}^{+0.0042}$\\
+            ~~~$P_{S,G}$\dotfill &A priori eclipse prob\dotfill & $0.0741_{-0.0053}^{+0.0057}$
+\enddata
+\label{tab:exofast.}
+\end{deluxetable}
+\end{document}
