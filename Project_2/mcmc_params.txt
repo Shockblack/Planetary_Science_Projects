@@ -1,10 +1,3 @@
-\ 
-\ Median Values and 68% Confidence Interval for EXOFAST Calculation
-\ 
-\ Title: GJ436b
-\ Date : Mon Feb 20 19:13:48 2023
-\ Fit Type: MCMC
-\ 
 |symbol  | parameter                               | units                   | value           | upper_error     | lower_error     |
 |char    | char                                    | char                    | double          | double          | double          |
  M*        Stellar Mass                              Msun                              0.684067          0.263472          0.170946 

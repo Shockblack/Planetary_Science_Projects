@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-import matplotlib
-matplotlib.rcParams['backend'] = "Qt4Agg"
 import matplotlib.pyplot as plt
 import numpy as np
 import astropy.io.fits as pyfits
@@ -8,16 +6,11 @@ import astropy.io.ascii as ascii
 import scipy.constants
 import astropy.constants
 import pickle
-from scipy import signal
-from astropy import units as u
 import numpy.fft as fft
-from mpl_toolkits.mplot3d import proj3d
 from mpl_toolkits.mplot3d import Axes3D
-from matplotlib.patches import FancyArrowPatch
 import time
 import scipy.interpolate
 import scipy.fftpack as fp
-from datetime import datetime
 import scipy.sparse as sp
 from scipy.optimize import minimize
 import sys
